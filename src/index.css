@@ -1,13 +1,40 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.leaflet-container {
+    height: 600px;
+    width: 100%;
+}
+
+
+.another-popup .leaflet-popup-content-wrapper {
+  background: #2ce897;
+  color: #eee;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 0px;
+}
+.another-popup .leaflet-popup-content-wrapper a {
+  color: rgba(200, 200, 200, 0.1);
+}
+.another-popup .leaflet-popup-tip-container {
+  width: 50px;
+  height: 15px;
+}
+.another-popup .leaflet-popup-tip {
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
